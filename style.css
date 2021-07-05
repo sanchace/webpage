@@ -13,3 +13,36 @@ h1, h2 {
 	margin-right: auto;
 	width: 50%;
 }
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav a, .logo {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li:last-child {
+	float: right;
+}
+
+nav a:hover {
+	background-color: gray;
+}
